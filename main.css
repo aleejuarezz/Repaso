@@ -1,0 +1,35 @@
+body{
+    background-color: cadetblue;
+    margin: 100px;
+    padding:0px;
+    
+}
+:root{
+    --fuente1:'Antonio', sans-serif;
+
+}
+.header {
+    width: 10%;
+    height: 100px;
+    background-color: yellow;
+    font-family: var(--fuente1);
+}
+.titulo{
+    font-family: var(--fuente1);
+    color: rgb(255, 71, 148);
+}
+.header__texto{
+    font-family: var(--fuente1);
+    color: black;
+}
+.blah{
+    color: rgb(224, 64, 189);
+}
+.boton:hover {
+    background-color:chocolate;
+    width: 150px;
+    margin-left: 30px;
+  
+
+}
+
